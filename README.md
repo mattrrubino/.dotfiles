@@ -8,6 +8,8 @@ This repository contains my shell and editor configuration for MacOS. It is test
 
 ## Steps
 
+The dotfiles are managed using the pattern described in [this article](https://www.atlassian.com/git/tutorials/dotfiles). You can use them by doing the following:
+
 1. Install [Homebrew](https://brew.sh).
 2. Install dependencies.
 
@@ -19,19 +21,16 @@ brew install python
 brew install wget
 ```
 
-3. Create aliases (optional).
+3. Install dotfiles.
 
 ```bash
-echo "alias python=python3" >> ~/.zprofile
-echo "alias pip=pip3" >> ~/.zprofile
-echo "alias vim=nvim" >> ~/.zprofile
+curl -Lks https://raw.githubusercontent.com/mattrrubino/.dotfiles/main/install.sh | /bin/bash
 ```
 
 4. Install [iTerm2](https://iterm2.com).
-5. Load `profile.json` in iTerm2.
-6. Install [Oh My ZSH](https://ohmyz.sh).
-7. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh).
-8. Copy `nvim` into `~/.config`.
+5. Install [Oh My ZSH](https://ohmyz.sh).
+6. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh).
+7. Load `.config/iterm2/profile.json` in iTerm2.
 
 ## FAQ
 
