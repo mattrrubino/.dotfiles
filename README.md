@@ -34,6 +34,9 @@ curl -Lks https://raw.githubusercontent.com/mattrrubino/.dotfiles/main/.install.
 
 ## FAQ
 
+**How do I recover my previous configuration files?**\
+The dotfile installer script relocates existing configuration files to `.config-backup`.
+
 **Why doesn't `debugpy` work?**\
 If `debugpy` is not working, it means that Mason most likely installed it for the wrong version of Python. To fix this, run the following command:
 
