@@ -30,12 +30,12 @@ curl -Lks https://raw.githubusercontent.com/mattrrubino/.dotfiles/main/.install.
 4. Install [iTerm2](https://iterm2.com).
 5. Install [Oh My ZSH](https://ohmyz.sh).
 6. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh).
-7. Load `.config/iterm2/profile.json` in iTerm2.
+7. Load `~/.config/iterm2/profile.json` in iTerm2.
 
 ## FAQ
 
 **How do I recover my previous configuration files?**\
-The dotfile installer script relocates existing configuration files to `.config-backup`.
+The dotfile installer script relocates existing configuration files to `~/.config-backup`.
 
 **Why doesn't `debugpy` work?**\
 If `debugpy` is not working, it means that Mason most likely installed it for the wrong version of Python. To fix this, run the following command:
