@@ -3,7 +3,7 @@
 This repository contains my shell and editor configuration for MacOS. It is tested with [Neovim](https://neovim.io) v0.9.5.
 
 <p align="center">
-    <img src="demo.gif" />
+    <img src=".demo.gif" />
 </p>
 
 ## Steps
@@ -24,7 +24,7 @@ brew install wget
 3. Install dotfiles.
 
 ```bash
-curl -Lks https://raw.githubusercontent.com/mattrrubino/.dotfiles/main/install.sh | /bin/bash
+curl -Lks https://raw.githubusercontent.com/mattrrubino/.dotfiles/main/.install.sh | /bin/bash
 ```
 
 4. Install [iTerm2](https://iterm2.com).
