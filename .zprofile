@@ -4,3 +4,6 @@ then
 fi
 
 source .bashrc
+
+bindkey "[D" backward-word
+bindkey "[C" forward-word
