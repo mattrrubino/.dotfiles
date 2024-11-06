@@ -6,6 +6,8 @@ o.hlsearch = false
 -- Line numbers
 o.number = true
 o.relativenumber = true
+o.cursorline = true
+o.cursorlineopt = "number"
 
 -- Line wrapping
 o.wrap = false
