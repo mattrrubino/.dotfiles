@@ -1,9 +1,11 @@
 return {
-    "c",
-    "cpp",
-    "python",
-    "javascript",
-    "go",
-    "lua",
-    "markdown",
+  "c",
+  "cpp",
+  "python",
+  "javascript",
+  "go",
+  "lua",
+  "tsx",
+  "html",
+  "markdown",
 }

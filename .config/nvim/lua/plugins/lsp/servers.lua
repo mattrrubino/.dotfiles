@@ -1,8 +1,7 @@
 return {
-    "clangd",
-    "cmake",
-    "pyright",
-    "tsserver",
-    "gopls",
-    "lua_ls",
+  "clangd",
+  "cmake",
+  "pyright",
+  "gopls",
+  "lua_ls",
 }
